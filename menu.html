@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu — L’Opera Bae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="mainstyle.css" />
+</head>
+<body>
+    <nav class="nav" aria-label="Primary">
+        <div class="container">
+          <div class="nav-con">
+            <a class="logo" href="./index.html">L’Opera <span class="logo-x">×</span> Bae</a>
+            <ul class="menu">
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li><a href="./menu.html">Menu / Services</a></li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./reservation.html">Reserve</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+  <main class="content" id="main">
+    <div class="container">
+      <header class="content-title">
+        <h1 class="h2">Our Menu</h1>
+        <p class="lead">Opera-worthy flavors — curated with love.</p>
+      </header>
+
+      <!-- Subnav (Tabs no-JS) -->
+      <ul class="subnav" role="tablist" aria-label="Menu categories">
+        <li><a href="#all" class="active">All</a></li>
+        <li><a href="#starters">Starters</a></li>
+        <li><a href="#pasta">Pasta</a></li>
+        <li><a href="#dessert">Dessert</a></li>
+        <li><a href="#drinks">Drinks</a></li>
+        <li><a href="#specials">Specials</a></li>
+      </ul>
+
+      <!-- All -->
+      <section id="all" class="menu-section">
+        <h2 class="h3 sr-only">All</h2>
+        <div class="content-con">
+          <article class="content-item card">
+            <img src="assets/3.jpg" alt="Carpaccio di Manzo" />
+            <h3 class="h4">Carpaccio Di Manzo</h3>
+            <p>Thin-sliced beef, rocket (arugula), heirloom tomatoes.</p>
+            <div class="price">420 THB</div>
+          </article>
+
+          <article class="content-item card">
+            <img src="assets/4.jpg" alt="Rigatoni Gratinati Al Forno" />
+            <h3 class="h4">Rigatoni Gratinati Al Forno</h3>
+            <p>Creamy rosé sauce with mozzarella cheese.</p>
+            <div class="price">380 THB</div>
+          </article>
+
+          <article class="content-item card">
+            <img src="assets/5.jpg" alt="Bar Maji signature cocktail" />
+            <h3 class="h4">Bar Maji</h3>
+            <p>Mystical cocktail with aromatic botanicals.</p>
+            <div class="price">290 THB</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Starters -->
+      <section id="starters" class="menu-section">
+        <h2 class="h3">Starters</h2>
+        <div class="content-con">
+          <article class="content-item card">
+            <img src="assets/starter1.webp" alt="Burrata with roasted cherry tomatoes" />
+            <h3 class="h4">Burrata & Roasted Cherry Tomatoes</h3>
+            <p>Basil oil, balsamic glaze, country bread.</p>
+            <div class="price">360 THB</div>
+          </article>
+          <article class="content-item card">
+            <img src="assets/3.jpg" alt="Rocket salad with heirloom tomatoes" />
+            <h3 class="h4">Rocket & Heirloom Tomato Salad</h3>
+            <p>Lemon vinaigrette, sea salt, aged parmesan.</p>
+            <div class="price">280 THB</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Pasta -->
+      <section id="pasta" class="menu-section">
+        <h2 class="h3">Pasta</h2>
+        <div class="content-con">
+          <article class="content-item card">
+            <img src="assets/4.jpg" alt="Rigatoni al forno in rosé sauce" />
+            <h3 class="h4">Rigatoni al Forno (Rosé)</h3>
+            <p>Tomato & cream rosé sauce, mozzarella, basil.</p>
+            <div class="price">380 THB</div>
+          </article>
+          <article class="content-item card">
+            <img src="assets/pasta2.jpg" alt="Truffle tagliatelle" />
+            <h3 class="h4">Tagliatelle al Tartufo</h3>
+            <p>Truffle cream, parmesan, cracked pepper.</p>
+            <div class="price">460 THB</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Dessert -->
+      <section id="dessert" class="menu-section">
+        <h2 class="h3">Dessert</h2>
+        <div class="content-con">
+          <article class="content-item card">
+            <img src="assets/dessert1.webp" alt="Red Velvet Opera Torte" />
+            <h3 class="h4">Red Velvet Opera Torte</h3>
+            <p>Layered sponge, light cream, vanilla aroma.</p>
+            <div class="price">240 THB</div>
+          </article>
+          <article class="content-item card">
+            <img src="assets/dessert2.webp" alt="Nocturne Tiramisu" />
+            <h3 class="h4">Nocturne Tiramisu</h3>
+            <p>Espresso-soaked ladyfingers, mascarpone.</p>
+            <div class="price">220 THB</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Drinks -->
+      <section id="drinks" class="menu-section">
+        <h2 class="h3">Drinks</h2>
+        <div class="content-con">
+          <article class="content-item card">
+            <img src="assets/5.jpg" alt="Bar Maji cocktail" />
+            <h3 class="h4">Bar Maji</h3>
+            <p>Botanical-forward, velvet finish.</p>
+            <div class="price">290 THB</div>
+          </article>
+          <article class="content-item card">
+            <img src="assets/6.png" alt="Velvet Berry Fizz" />
+            <h3 class="h4">Velvet Berry Fizz</h3>
+            <p>Mixed berries, soda, citrus twist.</p>
+            <div class="price">180 THB</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Specials -->
+      <section id="specials" class="menu-section">
+        <h2 class="h3">Specials</h2>
+        <div class="content-con">
+          <article class="content-item card">
+            <img src="assets/7.jpg" alt="Seasonal opera tasting set" />
+            <h3 class="h4">Seasonal Opera Tasting</h3>
+            <p>Four-course performance menu.</p>
+            <div class="price">1,290 THB</div>
+          </article>
+        </div>
+      </section>
+
+      <div class="cta-row">
+        <a href="reservation.html" class="btn btn-primary">Reserve a Table</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-bottom">
+    <div class="container">
+      <small>© 2025 L’Opera Bae — All rights reserved</small>
+    </div>
+  </footer>
+</body>
+</html>

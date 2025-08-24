@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reserve — L’Opera Bae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="mainstyle.css" />
+</head>
+<body>
+  <nav class="nav" aria-label="Primary">
+    <div class="container">
+      <div class="nav-con">
+        <a class="logo" href="index.html">L’Opera <span class="logo-x">×</span> Bae</a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu / Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="reservation.html" class="active">Reserve</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="content">
+    <div class="container">
+      <header class="content-title">
+        <h1 class="h2">Reservation</h1>
+        <p class="lead">Book your scene — we’ll set the spotlight for you.</p>
+      </header>
+
+      <form class="form card" aria-label="Reservation form">
+        <div class="grid-2">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Phone</span>
+            <input type="tel" name="phone" placeholder="+66 xxx xxx xxx" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Party Size</span>
+            <input type="number" name="size" min="1" max="12" value="2" />
+          </label>
+          <label>
+            <span>Date</span>
+            <input type="date" name="date" required />
+          </label>
+          <label>
+            <span>Time</span>
+            <input type="time" name="time" required />
+          </label>
+          <label class="full">
+            <span>Notes (optional)</span>
+            <textarea name="notes" rows="4" placeholder="Occasion, seating preference…"></textarea>
+          </label>
+        </div>
+
+        <div class="cta-row">
+          <button type="submit" class="btn btn-primary">Reserve Now</button>
+          <a href="menu.html" class="btn btn-ghost">View Menu</a>
+        </div>
+
+        <p class="form-note">We’ll confirm your reservation via phone or email shortly.</p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer-bottom">
+    <div class="container">
+      <small>© 2025 L’Opera Bae — All rights reserved</small>
+    </div>
+  </footer>
+</body>
+</html>
